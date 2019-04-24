@@ -11,7 +11,7 @@ public class Calculator {
 	}
 	
 	public long multiplication(long a, long b) {
-		return a-b;
+		return a*b;
 	}
 	
 	public long division(long a, long b) {
