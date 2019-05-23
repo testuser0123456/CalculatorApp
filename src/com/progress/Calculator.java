@@ -6,6 +6,7 @@ public class Calculator {
 		return a+b;
 	}
 	
+
 	public long substraction(long a, long b) {
 		return a-b;
 	}
