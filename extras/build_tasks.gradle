@@ -1,0 +1,25 @@
+task task1 {
+
+	println 'In task1 ! Outside'
+	
+	doFirst {
+		println 'In task1 ! In doFirst'
+	}
+	
+	doLast {
+		println 'In task1 ! In doLast'
+	}
+}
+
+task task2 {
+
+	println 'In task2 ! Outside'
+	
+	doFirst {
+		println 'In task2 ! In doFirst'
+	}
+	
+	doLast {
+		println 'In task2 ! In doLast'
+	}
+}

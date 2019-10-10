@@ -1,0 +1,4 @@
+import org.apache.log4j.Logger;
+
+Logger logger = Logger.getLogger(Calculator.class);
+

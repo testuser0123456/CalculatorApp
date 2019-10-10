@@ -1,0 +1,8 @@
+
+ manifest {
+        attributes 'url': 'https://www.progress.com',
+				   'Vendor': 'Progress Software',
+                   'Bundle-Name': 'Calculator'
+    }
+	
+

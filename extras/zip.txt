@@ -1,0 +1,11 @@
+task zipFile(type: Zip) {
+
+	archiveFileName = "demo.zip"
+	destinationDirectory = file("$buildDir/zip")
+	
+	from ("$buildDir")
+	{
+		include 'classes/*'
+		include 'libs/*'
+	}
+}

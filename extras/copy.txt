@@ -1,0 +1,6 @@
+task copyFile(type: Copy) {
+
+	from 'src/main/java'
+	include 'com/progress/*'
+	into "$buildDir"
+}
