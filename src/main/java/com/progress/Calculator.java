@@ -1,7 +1,6 @@
 package com.progress;
 
 public class Calculator {
-
 	
 	public long addition(long a, long b) {
 		System.out.println("addition");
