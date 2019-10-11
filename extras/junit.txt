@@ -1,0 +1,18 @@
+test {
+    useJUnitPlatform()
+}
+
+
+
+
+
+
+
+
+
+compileJava {
+        options.compilerArgs += ['-Xlint:deprecation', '-Xlint:path']
+    }
+	compileTestJava {
+        
+    }
