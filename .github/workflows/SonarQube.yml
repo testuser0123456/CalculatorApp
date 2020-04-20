@@ -16,7 +16,7 @@ jobs:
       with:
         ref: 'develop'
     - name: SonarQube Scan
-      uses: kitabisa/sonarqube-action@develop
+      uses: kitabisa/sonarqube-action@master
       with:
         host: 'http://172.29.20.40:9000'
         login: 'admin'
