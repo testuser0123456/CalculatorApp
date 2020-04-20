@@ -18,6 +18,5 @@ jobs:
     - name: SonarQube Scan
       uses: kitabisa/sonarqube-action@master
       with:
-        host: 'http://172.29.20.40:9000'
-        login: 'admin'
-        password: 'admin1'
+        host: ${{ secrets.SONARQUBE_HOST }}
+        login: ${{ secrets.SONARQUBE_TOKEN }}
