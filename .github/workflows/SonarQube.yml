@@ -4,6 +4,7 @@ on:
     branches:
       - develop
   pull_request:
+      branches: [develop]
       types: [opened, synchronize, reopened]
 name: SonarQube Analysis
 jobs:
@@ -11,7 +12,9 @@ jobs:
     name: SonarQube Trigger
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@develop
+    - uses: actions/checkout@v2
+      with:
+        ref: 'develop'
     - name: SonarQube Scan
       uses: kitabisa/sonarqube-action@develop
       with:
