@@ -20,4 +20,4 @@ jobs:
         version: 'latest' # required
         typescript: false
         scan: true
-        args: --debug -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }} -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }}
+        args: --debug -Dsonar.login='074392d8ada7bdb915c2022af08d72dac2979637' -Dsonar.host.url='http://172.29.20.40:9000/'
